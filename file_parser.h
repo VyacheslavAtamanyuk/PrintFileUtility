@@ -1,4 +1,5 @@
 #ifndef LABWORK1_VYACHESLAV_ATAMANYUK_FILE_PARSER_H
 #define LABWORK1_VYACHESLAV_ATAMANYUK_FILE_PARSER_H
-void FileParse(char* filename, uint64_t lines, bool flag_tail, char delimiter);
+#include "comand_parser.h"
+void PrintFile(Arguments args);
 #endif //LABWORK1_VYACHESLAV_ATAMANYUK_FILE_PARSER_H
